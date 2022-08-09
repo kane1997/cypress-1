@@ -19,4 +19,7 @@ export interface CypressBuilderOptions extends JsonObject {
   spec: string
   tsConfig: string
   watch: boolean
+  excludeSpecPattern: string | string[]
+  specPattern: string | string[]
+  supportFile: string
 }
